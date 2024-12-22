@@ -1,0 +1,33 @@
+/* 
+غير لون الايكونة بالتدريج لم تحط السهم عليها
+وبعدها حط لون يظهر بالتدريج
+اعمل متغيرات خاص وعام
+اهتم بعنصر الى انت بتعمله عشان لو فى حد شغال معاك فى نفس المشروع
+
+*/
+.perant{
+    display: grid;
+    grid-template-columns:repeat(10,1fr) ;
+    grid-row: 100em auto auto;
+    grid-template-areas: 
+    "header header header header header header header header header header " 
+    "nav nav nav nav nav nav nav nav nav nav " 
+    " section section section section section section section section section section " 
+    "footer footer footer footer footer footer footer footer footer footer"  ;
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+section{
+    grid-area: section;
+    background-color: brown;
+}
+footer{
+    grid-area: footer;
+    background-color: black;
+}

@@ -1,0 +1,82 @@
+:root{
+    --bestcolor: rgb(133, 1, 1);
+}
+
+
+.pr{
+    width: 100%;
+    background-color: azure;
+}
+.ss{
+    border: 10px double darkgray;
+    box-sizing: border-box;
+    display: inline-block;
+    width:50% !important;
+    background-color: rgb(153, 44, 44);
+}
+.o1,.o2,.o3,
+.o4,.o5,.o6,.o7{
+    transition: 2s;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+.o1:hover{
+    background-color: wheat ;
+}
+.o1:hover{
+    background-color: wheat ;
+}
+.o2:hover{
+    background-color: wheat ;
+}
+.o3:hover{
+    background-color: wheat ;
+}
+.o4:hover{
+    background-color: wheat ;
+}
+.o5:hover{
+    background-color: wheat ;
+}
+.o6:hover{
+    background-color: wheat ;
+}
+.o7:hover{
+    background-color: wheat ;
+}
+#id{
+    box-sizing: border-box;
+    background-color: #999999;
+    width:100% ;
+    height: 100px;
+}
+#id div {
+    display: inline;
+    color: aliceblue;
+    width: calc(100%/3);
+    margin-top: 4px;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+    background-color: var(--bestcolor);
+    border: 3px solid rgb(7, 4, 4);
+    text-indent: 2px;
+}
+
+p{
+
+}
+
+
+
+.r{
+    background-color:seagreen;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+div:hover{
+    overflow: visible;
+}
+
